@@ -1,0 +1,125 @@
+.app-container {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+form h3 {
+  margin-top: 10px; /* Space above "Things to do" */
+}
+
+form ul {
+  padding-left: 20px; /* Indent the list */
+  list-style-type: disc; /* Use bullet points */
+}
+
+form li {
+  display: flex; /* Arrange item and button horizontally */
+  align-items: center; /* Vertically align item and button */
+}
+
+form li button {
+  margin-left: 10px; /* Space between item and button */
+  padding: 5px 10px; /* Smaller button padding */
+  background-color: #dc3545; /* Red remove button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form li button:hover {
+  background-color: #c12a36; /* Darker red on hover */
+}
+
+/* Styles for CityDetails and ThingsToDo */
+.city-details-container { /* Add a container for details */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.city-details-container h2 {
+  margin-top: 0; /* Remove top margin from h2 */
+}
+
+.things-to-do-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.things-to-do-container h2 {
+  margin-top: 0; /* Remove top margin from h2 */
+}
+.things-to-do-container ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
